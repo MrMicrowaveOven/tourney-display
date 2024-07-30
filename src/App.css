@@ -59,6 +59,10 @@
   top: 0px;
 }
 
+.hor-line-winner {
+  left: 450px;
+}
+
 .hor-line-bottom {
   top: -65px;
 }
@@ -79,16 +83,27 @@
   top: 0px;
 }
 
+.player-name-winner {
+  position: absolute;
+  top: -180px;
+  left: 475px;
+}
+
 .player-name-bottom {
   top: -60px;
 }
 
-.match1 {
-  left: 50;
-  top: 50;
+.winner-checkbox {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 360px;
 }
 
-.match2 {
-  left: 50;
-  top: 100;
+.winner-checkbox-top {
+  top: 15px;
+}
+
+.winner-checkbox-bottom {
+  bottom: 80px;
 }
