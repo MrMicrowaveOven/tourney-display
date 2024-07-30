@@ -46,6 +46,7 @@
 
 .match {
   position: relative;
+  height: 200px;
 }
 
 .hor-line {
@@ -60,16 +61,22 @@
 }
 
 .hor-line-winner {
-  left: 450px;
+  left: 445px;
+  top: -10px;
 }
 
 .hor-line-bottom {
-  top: -65px;
+  top: -82px;
 }
 
 .joining {
   position: relative;
-  left: 400px;
+  left: 397px;
+  top: -5px;
+}
+
+.joining-bottom {
+  top: -15px;
 }
 
 .player-name {
@@ -85,12 +92,12 @@
 
 .player-name-winner {
   position: absolute;
-  top: -180px;
+  top: 60px;
   left: 475px;
 }
 
 .player-name-bottom {
-  top: -60px;
+  top: -80px;
 }
 
 .winner-checkbox {
@@ -105,5 +112,9 @@
 }
 
 .winner-checkbox-bottom {
-  bottom: 80px;
+  bottom: 60px;
+}
+
+.invisible {
+  visibility: hidden;
 }
